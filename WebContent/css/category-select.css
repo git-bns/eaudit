@@ -1,0 +1,29 @@
+label.radio-inline {
+	background-color: #dcdfd4;
+	cursor: pointer;
+	font-weight: 400;
+	margin-bottom: 10px !important;
+	margin-right: 2%;
+	margin-left: 0;
+	padding: 10px 10px 10px 30px;
+  	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+label.radio-inline.checked {
+	background-color: #00cc44;
+	color: #fff !important;
+	text-shadow: 1px 1px 2px #000 !important;
+}
+
+.radio-inline+.radio-inline {
+	margin-left: 0;
+}
+
+.columns label.radio-inline {
+	min-width: 130px;
+	vertical-align: top;
+	width: 30%;
+}

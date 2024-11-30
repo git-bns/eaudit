@@ -1,0 +1,22 @@
+#home_body {
+	background: url('../images/banners/home_bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	overflow: hidden;
+}
+
+#loginPanel {
+	opacity: 0.9;
+	margin-top: 90px;
+}
+
+#loginForm > div {
+    margin-bottom: 20px;
+}
+
+.panel-body {
+    padding-top: 50px;
+}
