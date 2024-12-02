@@ -4,6 +4,9 @@
   <welcome-file-list>
     <welcome-file>Home.do</welcome-file>
   </welcome-file-list>
+  
+  <!-- Enforcing SSL ONLY -->
+  <!-- 
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>eAudit</web-resource-name>
@@ -14,5 +17,6 @@
     <user-data-constraint>
       <transport-guarantee>CONFIDENTIAL</transport-guarantee>
     </user-data-constraint>
-  </security-constraint>
+  </security-constraint> -->
+  
 </web-app>
